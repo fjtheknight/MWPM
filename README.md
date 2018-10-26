@@ -7,6 +7,17 @@ The automation system is built using the concept of Finite State Machines that s
 
 The transitions is caused by the buttons being pressed either by the wire processing machine or the user. Transitions happen immediately.
 
+## Simplified machine diagram
+![Fritzing](https://i.imgur.com/KGzNh8A.jpg)
+
+Four states were used for this project:
+
+* Standby (basic state): State 0
+* Wire feeding: State 1
+* Actuator down: State 2
+* Actuator up: State 3
+
+
 ## Electric circuit design with Fritzing
 ![Fritzing](https://i.imgur.com/bVrTSYQ.png)
 
